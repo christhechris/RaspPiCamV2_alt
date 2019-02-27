@@ -1,0 +1,37 @@
+Partlist
+
+Exported from RPCamV2_Alt_camera_board.brd at 31/7/18 11:55 AM
+
+EAGLE Version 9.1.1 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                                        Package                         Library         Position (mil)        Orientation
+
+C1       1uf                                          C0402                           Seeed-Capacitor (765 230)             R270
+C2       4.7uf                                        C0603                           Seeed-Capacitor (869 140)             R90
+C3       1uf                                          C0402                           Seeed-Capacitor (766 302.60002)       R270
+C4       10uf                                         C0805                           Seeed-Capacitor (933 373)             R270
+C5       1uf                                          C0402                           Seeed-Capacitor (80 155)              R270
+C6       1uf                                          C0402                           Seeed-Capacitor (245 150)             R270
+C7       1uf                                          C0402                           Seeed-Capacitor (770 465)             R270
+C8       1uf                                          C0402                           Seeed-Capacitor (835 395)             R180
+C9       1uf                                          C0402                           Seeed-Capacitor (534 385)             R180
+C10      1uf                                          C0402                           Seeed-Capacitor (198 392)             R90
+C11      1uf                                          C0402                           Seeed-Capacitor (82 394)              R270
+FB1      BLM18AG601SN1D                               LEDM1608X80                     RPI_CAM         (868 69)              R180
+FB2      BLM18AG601SN1D                               LEDM1608X80                     RPI_CAM         (175 70)              R180
+J1       DF37NC-30DS-0.4V(53)_IMX219CONNIMX219_RPICAM HRS_DF37NC-30DS-0.4V(53)_IMX219 RPI_CAM         (560 510)             R180
+L1       2.2UH-1.2A                                   L0805                           Seeed-Inductor  (933 283)             R180
+L2       DLP11SN900HL2L                               INDC1210X09                     DLP11SN900HL2L  (440 250)             R90
+L3       DLP11SN900HL2L                               INDC1210X09                     DLP11SN900HL2L  (500 250)             R90
+L4       DLP11SN900HL2L                               INDC1210X09                     DLP11SN900HL2L  (560 250)             R90
+R1       2.2K 1%                                      R0402                           Seeed-Resistor  (770 570)             R90
+R2       2.2K 1%                                      R0402                           Seeed-Resistor  (770 520)             R90
+R3       2.2K 1%                                      R0402                           Seeed-Resistor  (586.10002 385.10002) R0
+U1       10051922-1510ELF                             FCI_10051922-1510ELF            RPI_CAM         (550 90)              R180
+U2       DMG1024UV-7                                  SOT50P162X60-6N                 RPI_CAM         (660 255)             R270
+U3       TPS62665YFFR                                 BGA6C40P2X3_130X93X63           RPI_CAM         (923 210)             R270
+U4       AP7331-18WG-7                                SOT95P285X145-5N                RPI_CAM         (260 270)             R90
+U5       AP7331-28WG-7                                SOT95P285X145-5N                RPI_CAM         (100 270)             R90
+Y1       ECS-1618-240-BN-TR                           XTAL_ECS-1618-060-BN-TR         RPI_CAM         (665 375)             R180
