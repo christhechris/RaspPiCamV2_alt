@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -264,21 +264,6 @@
 <smd name="3" x="0.65" y="0.5" dx="0.7" dy="0.8" layer="1" rot="R90"/>
 <smd name="4" x="-0.65" y="0.5" dx="0.7" dy="0.8" layer="1" rot="R90"/>
 </package>
-<package name="BGA6C40P2X3_130X93X63" urn="urn:adsk.eagle:footprint:4435635/2" library_version="21" library_locally_modified="yes">
-<wire x1="-0.2794" y1="0.6858" x2="-0.4826" y2="0.4826" width="0" layer="51"/>
-<wire x1="-0.4826" y1="-0.6858" x2="0.4826" y2="-0.6858" width="0" layer="51"/>
-<wire x1="0.4826" y1="-0.6858" x2="0.4826" y2="0.6858" width="0" layer="51"/>
-<wire x1="0.4826" y1="0.6858" x2="-0.4826" y2="0.6858" width="0" layer="51"/>
-<wire x1="-0.4826" y1="0.6858" x2="-0.4826" y2="-0.6858" width="0" layer="51"/>
-<text x="-0.64903125" y="-0.80013125" size="0.889" layer="25" ratio="10" rot="SR90">&gt;NAME</text>
-<text x="1.278909375" y="-0.92248125" size="0.635" layer="27" ratio="10" rot="SR90">&gt;VALUE</text>
-<smd name="A1" x="-0.2032" y="0.4064" dx="0.2032" dy="0.2032" layer="1" roundness="100"/>
-<smd name="A2" x="0.2032" y="0.4064" dx="0.2032" dy="0.2032" layer="1" roundness="100"/>
-<smd name="B1" x="-0.2032" y="0" dx="0.2032" dy="0.2032" layer="1" roundness="100"/>
-<smd name="B2" x="0.2032" y="0" dx="0.2032" dy="0.2032" layer="1" roundness="100"/>
-<smd name="C1" x="-0.2032" y="-0.4064" dx="0.2032" dy="0.2032" layer="1" roundness="100"/>
-<smd name="C2" x="0.2032" y="-0.4064" dx="0.2032" dy="0.2032" layer="1" roundness="100"/>
-</package>
 <package name="FCI_10051922-1510ELF" urn="urn:adsk.eagle:footprint:4435641/2" library_version="21" library_locally_modified="yes">
 <wire x1="3.2258" y1="-2.8448" x2="3.5052" y2="-3.3782" width="0.1524" layer="21"/>
 <wire x1="3.7846" y1="-2.8194" x2="3.5052" y2="-3.3782" width="0.1524" layer="21"/>
@@ -510,7 +495,7 @@
 <smd name="5" x="-2" y="-1.325" dx="0.63" dy="0.23" layer="1" rot="R90" cream="no"/>
 <smd name="29" x="2.8" y="-1.325" dx="0.63" dy="0.23" layer="1" rot="R90" cream="no"/>
 </package>
-<package name="C0402K" urn="urn:adsk.eagle:footprint:8118439/1" locally_modified="yes" library_version="25" library_locally_modified="yes">
+<package name="C0402K" urn="urn:adsk.eagle:footprint:8118439/1" library_version="27" library_locally_modified="yes">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0204 Reflow solder&lt;/b&gt;&lt;p&gt;
 Metric Code Size 1005</description>
 <wire x1="-0.425" y1="0.2" x2="0.425" y2="0.2" width="0.1016" layer="51"/>
@@ -519,8 +504,8 @@ Metric Code Size 1005</description>
 <rectangle x1="0.225" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
 <smd name="1" x="-0.5" y="0" dx="0.5" dy="0.7" layer="1"/>
 <smd name="2" x="0.5" y="0" dx="0.5" dy="0.7" layer="1"/>
-<text x="-0.7794" y="0.7552" size="1.016" layer="25">&gt;NAME</text>
-<text x="-0.754" y="-1.5262" size="1.016" layer="27">&gt;VALUE</text>
+<text x="-0.5" y="0.425" size="1.016" layer="25">&gt;NAME</text>
+<text x="-0.5" y="-1.45" size="1.016" layer="27">&gt;VALUE</text>
 </package>
 <package name="C0603" urn="urn:adsk.eagle:footprint:8814609/1" library_version="21" library_locally_modified="yes">
 <description>&lt;b&gt;0603&lt;b&gt;&lt;p&gt;</description>
@@ -599,11 +584,6 @@ Metric Code Size 1005</description>
 <packageinstance name="XTAL_ECS-1618-060-BN-TR"/>
 </packageinstances>
 </package3d>
-<package3d name="BGA6C40P2X3_130X92X63" urn="urn:adsk.eagle:package:4435663/3" type="model" library_version="21" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="BGA6C40P2X3_130X93X63"/>
-</packageinstances>
-</package3d>
 <package3d name="FCI_10051922-1510ELF" urn="urn:adsk.eagle:package:4435669/3" type="model" library_version="21" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="FCI_10051922-1510ELF"/>
@@ -626,7 +606,7 @@ Metric Code Size 1005</description>
 <packageinstance name="HRS_DF37NC-30DS-0.4V(53)"/>
 </packageinstances>
 </package3d>
-<package3d name="C0402K" urn="urn:adsk.eagle:package:8118582/2" locally_modified="yes" type="model" library_version="25" library_locally_modified="yes">
+<package3d name="C0402K" urn="urn:adsk.eagle:package:8118582/2" type="model" library_version="27" library_locally_modified="yes">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0204 Reflow solder&lt;/b&gt;&lt;p&gt;
 Metric Code Size 1005</description>
 <packageinstances>
@@ -784,20 +764,6 @@ Metric Code Size 1005</description>
 <pin name="OUTPUT" x="15.24" y="0" length="short" direction="out" rot="R180"/>
 <pin name="VDD" x="15.24" y="5.08" length="short" direction="pwr" rot="R180"/>
 <pin name="GND" x="15.24" y="-5.08" length="short" direction="pwr" rot="R180"/>
-</symbol>
-<symbol name="TPS62665YFFR" urn="urn:adsk.eagle:symbol:4435650/1" library_version="1" library_locally_modified="yes">
-<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-15.24" width="0.4064" layer="94"/>
-<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="-15.24" x2="12.7" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.4064" layer="94"/>
-<text x="-5.267290625" y="12.8501" size="2.086559375" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.68833125" y="-20.0187" size="2.085809375" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-<pin name="VIN" x="-17.78" y="5.08" length="middle" direction="pwr"/>
-<pin name="MODE" x="17.78" y="-10.16" length="middle" direction="in" rot="R180"/>
-<pin name="EN" x="-17.78" y="-2.54" length="middle" direction="in"/>
-<pin name="FB" x="17.78" y="-2.54" length="middle" direction="in" rot="R180"/>
-<pin name="GND" x="-17.78" y="-10.16" length="middle" direction="pas"/>
-<pin name="SW" x="17.78" y="5.08" length="middle" rot="R180"/>
 </symbol>
 <symbol name="10051922-1510ELF_ALT" urn="urn:adsk.eagle:symbol:4435649/1" library_version="1" library_locally_modified="yes">
 <wire x1="-5.08" y1="10.16" x2="-5.08" y2="-35.56" width="0.4064" layer="94"/>
@@ -962,6 +928,19 @@ Metric Code Size 1005</description>
 <pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
+<symbol name="SC189CSKTRT" library_version="27" library_locally_modified="yes">
+<wire x1="-10.16" y1="10.16" x2="12.7" y2="10.16" width="0.41" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.41" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="-10.16" y2="-10.16" width="0.41" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.41" layer="94"/>
+<text x="-10.16" y="11.16" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-10.16" y="-14.16" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="EN" x="-15.24" y="-5.08" length="middle" direction="in"/>
+<pin name="LX" x="17.78" y="7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="VIN" x="-15.24" y="7.62" length="middle" direction="pwr"/>
+<pin name="VOUT" x="17.78" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="17.78" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AP7331-18WG-7" urn="urn:adsk.eagle:component:4435681/3" prefix="U" library_version="25" library_locally_modified="yes">
@@ -1077,37 +1056,6 @@ Metric Code Size 1005</description>
 <attribute name="MF" value="ECS International"/>
 <attribute name="MPN" value="ECS-1618-240-BN-TR"/>
 <attribute name="PACKAGE" value="SMD-4 ECS International"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TPS62665YFFR" urn="urn:adsk.eagle:component:4435675/3" prefix="U" library_version="25" library_locally_modified="yes">
-<description>STEP-DOWN CONVERTER</description>
-<gates>
-<gate name="A" symbol="TPS62665YFFR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BGA6C40P2X3_130X93X63">
-<connects>
-<connect gate="A" pin="EN" pad="B2"/>
-<connect gate="A" pin="FB" pad="C1"/>
-<connect gate="A" pin="GND" pad="C2"/>
-<connect gate="A" pin="MODE" pad="A1"/>
-<connect gate="A" pin="SW" pad="B1"/>
-<connect gate="A" pin="VIN" pad="A2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4435663/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Good"/>
-<attribute name="DESCRIPTION" value=" 1000mA, 6-MHz Synchronous Step-Down Converter in Chip Scale Packaging 6-DSBGA -40 to 85 "/>
-<attribute name="MF" value="Texas Instruments"/>
-<attribute name="MPN" value="TPS62665YFFR"/>
-<attribute name="PACKAGE" value="DSBGA-6 Texas Instruments"/>
-<attribute name="PRICE" value="0.98 USD"/>
 </technology>
 </technologies>
 </device>
@@ -1254,7 +1202,7 @@ Metric Code Size 1005</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CERAMIC-1UF-10V-10%-X5R(0402)" urn="urn:adsk.eagle:component:8399611/2" locally_modified="yes" prefix="C" uservalue="yes" library_version="25" library_locally_modified="yes">
+<deviceset name="CERAMIC-1UF-10V-10%-X5R(0402)" urn="urn:adsk.eagle:component:8399611/2" prefix="C" uservalue="yes" library_version="27" library_locally_modified="yes">
 <description>302010040</description>
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
@@ -1454,6 +1402,29 @@ Metric Code Size 1005</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="SC189CSKTRT" prefix="U" library_version="27" library_locally_modified="yes">
+<description>1.2V Switching Voltage Regulators 2.5MHz-1.5A SYNC STEP DOWN REG None</description>
+<gates>
+<gate name="G$1" symbol="SC189CSKTRT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOT95" package="SOT95P285X145-5N">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="LX" pad="5"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4435668/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -1478,7 +1449,6 @@ Metric Code Size 1005</description>
 <part name="U5" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="AP7331-28WG-7" device="" package3d_urn="urn:adsk.eagle:package:4435668/3"/>
 <part name="U2" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="DMG1024UV-7" device="" package3d_urn="urn:adsk.eagle:package:4435665/4"/>
 <part name="Y1" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="ECS-1618-240-BN-TR" device="" package3d_urn="urn:adsk.eagle:package:4435664/3"/>
-<part name="U3" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="TPS62665YFFR" device="" package3d_urn="urn:adsk.eagle:package:4435663/3"/>
 <part name="U1" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="10051922-1510ELF" device="" package3d_urn="urn:adsk.eagle:package:4435669/3"/>
 <part name="SUPPLY3" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="1.8V" device=""/>
 <part name="SUPPLY4" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="1.8V" device=""/>
@@ -1528,7 +1498,7 @@ Metric Code Size 1005</description>
 <part name="GND15" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="GND" device=""/>
 <part name="GND6" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="GND" device=""/>
 <part name="GND5" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="GND" device=""/>
-<part name="GND18" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="GND" device=""/>
+<part name="U6" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="SC189CSKTRT" device="SOT95" package3d_urn="urn:adsk.eagle:package:4435668/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -1562,10 +1532,6 @@ Metric Code Size 1005</description>
 <instance part="Y1" gate="G$1" x="15.24" y="30.48" smashed="yes">
 <attribute name="NAME" x="2.5056" y="38.629990625" size="1.680940625" layer="95"/>
 <attribute name="VALUE" x="2.5175" y="20.302" size="1.67936875" layer="96"/>
-</instance>
-<instance part="U3" gate="A" x="0" y="-2.54" smashed="yes">
-<attribute name="NAME" x="-5.267290625" y="10.3101" size="2.086559375" layer="95" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="-3.68833125" y="-22.5587" size="2.085809375" layer="96" ratio="10" rot="SR0"/>
 </instance>
 <instance part="U1" gate="A" x="-66.04" y="86.36" smashed="yes">
 <attribute name="NAME" x="-71.17953125" y="97.4786" size="2.08635" layer="95" ratio="10" rot="SR0"/>
@@ -1613,13 +1579,13 @@ Metric Code Size 1005</description>
 <attribute name="NAME" x="118.11" y="46.99" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="121.92" y="46.99" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="FB1" gate="G$1" x="-35.56" y="2.54" smashed="yes">
-<attribute name="NAME" x="-38.1" y="3.81" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="-38.1" y="0" size="1.27" layer="96" ratio="10"/>
+<instance part="FB1" gate="G$1" x="-58.42" y="2.54" smashed="yes">
+<attribute name="NAME" x="-60.96" y="3.81" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="-60.96" y="0" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="C2" gate="G$1" x="-27.94" y="-12.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="-29.21" y="-16.51" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="-25.4" y="-16.51" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="C2" gate="G$1" x="-50.8" y="-12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="-52.07" y="-16.51" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="-48.26" y="-16.51" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
 <instance part="C4" gate="G$1" x="48.26" y="-12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.99" y="-16.51" size="1.27" layer="95" ratio="10" rot="R90"/>
@@ -1632,8 +1598,8 @@ Metric Code Size 1005</description>
 <instance part="SUPPLY7" gate="G$1" x="58.42" y="15.24" smashed="yes">
 <attribute name="VALUE" x="58.42" y="18.034" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="-43.18" y="7.62" smashed="yes">
-<attribute name="VALUE" x="-43.18" y="10.414" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="-66.04" y="7.62" smashed="yes">
+<attribute name="VALUE" x="-66.04" y="10.414" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C11" gate="G$1" x="172.72" y="-20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="171.45" y="-24.13" size="1.27" layer="95" ratio="10" rot="R90"/>
@@ -1682,8 +1648,8 @@ Metric Code Size 1005</description>
 <attribute name="NAME" x="139.68618125" y="94.5258" size="1.78123125" layer="95"/>
 <attribute name="VALUE" x="139.68051875" y="50.7415" size="1.782540625" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="-27.94" y="-20.32" smashed="yes">
-<attribute name="VALUE" x="-27.94" y="-20.574" size="1.778" layer="96" align="top-center"/>
+<instance part="GND3" gate="1" x="-50.8" y="-20.32" smashed="yes">
+<attribute name="VALUE" x="-50.8" y="-20.574" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND2" gate="1" x="-30.48" y="25.4" smashed="yes">
 <attribute name="VALUE" x="-30.48" y="25.146" size="1.778" layer="96" align="top-center"/>
@@ -1733,8 +1699,9 @@ Metric Code Size 1005</description>
 <instance part="GND5" gate="1" x="35.56" y="17.78" smashed="yes">
 <attribute name="VALUE" x="35.56" y="17.526" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND18" gate="1" x="-20.32" y="-20.32" smashed="yes">
-<attribute name="VALUE" x="-20.32" y="-20.574" size="1.778" layer="96" align="top-center"/>
+<instance part="U6" gate="G$1" x="-5.08" y="-5.08" smashed="yes">
+<attribute name="NAME" x="-22.86" y="6.08" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="-22.86" y="-19.24" size="2.0828" layer="96" ratio="10" rot="SR0"/>
 </instance>
 </instances>
 <busses>
@@ -1760,16 +1727,10 @@ Metric Code Size 1005</description>
 <wire x1="-48.26" y1="91.44" x2="-45.72" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U3" gate="A" pin="GND"/>
-<wire x1="-17.78" y1="-12.7" x2="-20.32" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="-12.7" x2="-20.32" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="GND18" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U3" gate="A" pin="MODE"/>
-<wire x1="17.78" y1="-12.7" x2="25.4" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-12.7" x2="25.4" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-12.7" x2="25.4" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="U6" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -1878,7 +1839,7 @@ Metric Code Size 1005</description>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="-27.94" y1="-17.78" x2="-27.94" y2="-16.51" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="-17.78" x2="-50.8" y2="-16.51" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -1895,9 +1856,9 @@ Metric Code Size 1005</description>
 <label x="-43.18" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U3" gate="A" pin="EN"/>
-<wire x1="-17.78" y1="-5.08" x2="-35.56" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-40.64" y="-5.08" size="1.778" layer="95"/>
+<wire x1="-20.32" y1="-10.16" x2="-38.1" y2="-10.16" width="0.1524" layer="91"/>
+<label x="-38.1" y="-7.62" size="1.778" layer="95"/>
+<pinref part="U6" gate="G$1" pin="EN"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="EN"/>
@@ -2207,9 +2168,8 @@ Metric Code Size 1005</description>
 <junction x="109.22" y="63.5"/>
 </segment>
 <segment>
-<pinref part="U3" gate="A" pin="FB"/>
-<wire x1="17.78" y1="-5.08" x2="38.1" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="-5.08" x2="38.1" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-2.54" x2="38.1" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-2.54" x2="38.1" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="2.54" x2="48.26" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="2.54" x2="58.42" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="2.54" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
@@ -2220,6 +2180,7 @@ Metric Code Size 1005</description>
 <wire x1="48.26" y1="-8.89" x2="48.26" y2="2.54" width="0.1524" layer="91"/>
 <junction x="48.26" y="2.54"/>
 <pinref part="SUPPLY7" gate="G$1" pin="1.2V"/>
+<pinref part="U6" gate="G$1" pin="VOUT"/>
 </segment>
 </net>
 <net name="2.8V" class="2">
@@ -2244,21 +2205,20 @@ Metric Code Size 1005</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U3" gate="A" pin="VIN"/>
 <pinref part="FB1" gate="G$1" pin="2"/>
-<wire x1="-17.78" y1="2.54" x2="-25.4" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="2.54" x2="-27.94" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="-27.94" y1="2.54" x2="-30.48" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="-8.89" x2="-27.94" y2="2.54" width="0.1524" layer="91"/>
-<junction x="-27.94" y="2.54"/>
+<wire x1="-50.8" y1="2.54" x2="-53.34" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="-8.89" x2="-50.8" y2="2.54" width="0.1524" layer="91"/>
+<junction x="-50.8" y="2.54"/>
+<pinref part="U6" gate="G$1" pin="VIN"/>
+<wire x1="-50.8" y1="2.54" x2="-20.32" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="2">
 <segment>
-<pinref part="U3" gate="A" pin="SW"/>
-<wire x1="17.78" y1="2.54" x2="22.86" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="2.54" x2="22.86" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="L1" gate="L" pin="1"/>
+<pinref part="U6" gate="G$1" pin="LX"/>
 </segment>
 </net>
 <net name="IN_PR" class="0">
@@ -2296,8 +2256,8 @@ Metric Code Size 1005</description>
 </segment>
 <segment>
 <pinref part="FB1" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="2.54" x2="-43.18" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="2.54" x2="-43.18" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="2.54" x2="-66.04" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="2.54" x2="-66.04" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
