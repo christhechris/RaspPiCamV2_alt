@@ -928,7 +928,7 @@ Metric Code Size 1005</description>
 <pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="SC189CSKTRT" library_version="27" library_locally_modified="yes">
+<symbol name="SC189CSKTRT" urn="urn:adsk.eagle:symbol:9991852/1" library_version="28">
 <wire x1="-10.16" y1="10.16" x2="12.7" y2="10.16" width="0.41" layer="94"/>
 <wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.41" layer="94"/>
 <wire x1="12.7" y1="-10.16" x2="-10.16" y2="-10.16" width="0.41" layer="94"/>
@@ -1202,7 +1202,7 @@ Metric Code Size 1005</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CERAMIC-1UF-10V-10%-X5R(0402)" urn="urn:adsk.eagle:component:8399611/2" prefix="C" uservalue="yes" library_version="27" library_locally_modified="yes">
+<deviceset name="CERAMIC-1UF-10V-10%-X5R(0402)" urn="urn:adsk.eagle:component:8399611/3" prefix="C" uservalue="yes" library_version="28">
 <description>302010040</description>
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
@@ -1218,7 +1218,8 @@ Metric Code Size 1005</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="CC0402KRX5R6BB105"/>
+<attribute name="MPN" value="MF-CAP-0402-1uF" constant="no"/>
+<attribute name="MPN_SEEED" value="CC0402KRX5R6BB105"/>
 <attribute name="VALUE" value="1uf"/>
 </technology>
 </technologies>
@@ -1402,7 +1403,7 @@ Metric Code Size 1005</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SC189CSKTRT" prefix="U" library_version="27" library_locally_modified="yes">
+<deviceset name="SC189CSKTRT" urn="urn:adsk.eagle:component:9991853/1" prefix="U" library_version="28">
 <description>1.2V Switching Voltage Regulators 2.5MHz-1.5A SYNC STEP DOWN REG None</description>
 <gates>
 <gate name="G$1" symbol="SC189CSKTRT" x="0" y="0"/>
@@ -1420,7 +1421,9 @@ Metric Code Size 1005</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:4435668/3"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MPN" value="SC189CSKTRT" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
